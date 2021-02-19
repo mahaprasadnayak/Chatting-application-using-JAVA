@@ -6,7 +6,7 @@ import java.net.*;
               {
               String name=args[10];
               try{
-              Socket s=new Socket("192.168.43.149",12000);
+              Socket s=new Socket("YOUR_IP_ADDRESS",12000);
               BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
               PrintWriter pw=new PrintWriter(s.getOutputStream(),true);
                           while(true)
